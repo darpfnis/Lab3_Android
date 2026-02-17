@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextFlower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_flower"
+            android:inputType="textCapWords"
+            android:minHeight="48dp"
+            android:autofillHints="none"
+            android:textColor="@android:color/darker_gray"/>
+
+
+        <EditText
+            android:id="@+id/editTextCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_customer"
+            android:inputType="textPersonName"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:autofillHints="personName"
+            android:textColor="@android:color/darker_gray"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:autofillHints="emailAddress"
+            android:textColor="@android:color/darker_gray"/>
+
+        <EditText
+            android:id="@+id/editTextNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_notes"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:minHeight="48dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints="none"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_color"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/red"/>
+
+            <RadioButton
+                android:id="@+id/radioWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/white"/>
+
+            <RadioButton
+                android:id="@+id/radioPink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pink"/>
+
+            <RadioButton
+                android:id="@+id/radioBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blue"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_price"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioCheap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/basic"/>
+
+            <RadioButton
+                android:id="@+id/radioMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/standard"/>
+
+            <RadioButton
+                android:id="@+id/radioExpensive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/premium"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_order"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/buttonOpenHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_history"
+            android:minHeight="48dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

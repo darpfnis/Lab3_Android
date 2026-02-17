@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="form_title">Flower Order Form</string>
+    <string name="hint_flower">Enter flower name</string>
+    <string name="hint_customer">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_notes">Additional notes</string>
+    <string name="choose_color">Choose color</string>
+    <string name="red">Red</string>
+    <string name="white">White</string>
+    <string name="pink">Pink</string>
+    <string name="blue">Blue</string>
+    <string name="choose_price">Choose package</string>
+    <string name="basic">Basic (under $15)</string>
+    <string name="standard">Standard ($15 - $50)</string>
+    <string name="premium">Premium (above $50)</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="open_history">Open History</string>
+</resources>
